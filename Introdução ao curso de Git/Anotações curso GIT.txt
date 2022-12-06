@@ -3,24 +3,38 @@ https://git-scm.com/
 
 O Git Bash é um terminal extendido para timizar o uso do GIt.
 
-Comandos:
-ls = verifica as pastas/ arquivos
-cd \nomedapasta = vai para a pasta nomedapasta 
-git status  
-git add * = adiciona tudo
-ls
-ctrl + L - LIMPA A TELA
-git status
-git commit -m "Adicione mensagem..." = commit
+--Comandos:
 
-git push origin master = ENVIA (empurra) o conteúdo do GitHub
-git push origin main = ENVIA (empurra) o conteúdo do GitHub
-git pull origin master = PUXA (pull) o conteúdo do GitHub
+ls => verifica as pastas/ arquivos
+cd \nomedapasta => vai para a pasta nomedapasta 
+git status  
+git add * => adiciona tudo
+ls
+ctrl + L => LIMPA A TELA
+git status
+git commit -m "Adicione mensagem..." => commit
+
+git push origin master => ENVIA (empurra) o conteúdo do GitHub
+git push origin main => ENVIA (empurra) o conteúdo do GitHub
+git pull origin master => PUXA (pull) o conteúdo do GitHub
+git pull origin main => PUXA (pull) o conteúdo do GitHub
 
 OBS: Modifica o arquivo e envia novamente - CONFLIT MERGE
 
 git status
 git add * => Adiciona todo o conteúdo após a alteração.
+
+
+*Alterar username e email
+git config --global  --unnset user email    (estudar mais sobre esse item)
+
+*Adciona a origem:
+git remote add origin https://github.com/siljrocha/dio-desafio-github-primeiro-repositori
+
+*Lista os repositórios cadastrados
+git remote -v
+
+
 
 
  
