@@ -1,0 +1,26 @@
+Link dowsnload GIT:
+https://git-scm.com/
+
+O Git Bash é um terminal extendido para timizar o uso do GIt.
+
+Comandos:
+ls = verifica as pastas/ arquivos
+cd \nomedapasta = vai para a pasta nomedapasta 
+git status  
+git add * = adiciona tudo
+ls
+ctrl + L - LIMPA A TELA
+git status
+git commit -m "Adicione mensagem..." = commit
+
+git push origin master = ENVIA (empurra) o conteúdo do GitHub
+git push origin main = ENVIA (empurra) o conteúdo do GitHub
+git pull origin master = PUXA (pull) o conteúdo do GitHub
+
+OBS: Modifica o arquivo e envia novamente - CONFLIT MERGE
+
+git status
+git add * => Adiciona todo o conteúdo após a alteração
+
+
+ 
