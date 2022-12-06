@@ -20,7 +20,7 @@ git pull origin master = PUXA (pull) o conteúdo do GitHub
 OBS: Modifica o arquivo e envia novamente - CONFLIT MERGE
 
 git status
-git add * => Adiciona todo o conteúdo após a alteração
+git add * => Adiciona todo o conteúdo após a alteração.
 
 
  
